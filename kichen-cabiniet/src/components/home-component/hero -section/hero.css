@@ -1,0 +1,70 @@
+.hero {
+  margin-top: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  background-image: url("../../../assets/products/ai-generated-8507931_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #941616;
+  padding: 0 50px;
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e1e824;
+  color: #25d0b7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #160d8d;
+}
+
+.hero-image {
+  flex: 1;
+  max-width: 500px;
+  height: auto;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .hero-image {
+    max-width: 100%;
+  }
+}
